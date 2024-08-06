@@ -16,6 +16,7 @@
 		9A15BAF92C61FFE7008E64E4 /* swift_startUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A15BAF82C61FFE7008E64E4 /* swift_startUITestsLaunchTests.swift */; };
 		9A15BB062C6204F6008E64E4 /* VariableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A15BB052C6204F6008E64E4 /* VariableType.swift */; };
 		9A15BB082C620782008E64E4 /* Collections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A15BB072C620782008E64E4 /* Collections.swift */; };
+		9A15BB0A2C620AAE008E64E4 /* Condition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A15BB092C620AAE008E64E4 /* Condition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9A15BAF82C61FFE7008E64E4 /* swift_startUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_startUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9A15BB052C6204F6008E64E4 /* VariableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableType.swift; sourceTree = "<group>"; };
 		9A15BB072C620782008E64E4 /* Collections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collections.swift; sourceTree = "<group>"; };
+		9A15BB092C620AAE008E64E4 /* Condition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Condition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				9A15BAE12C61FFE7008E64E4 /* Preview Content */,
 				9A15BB052C6204F6008E64E4 /* VariableType.swift */,
 				9A15BB072C620782008E64E4 /* Collections.swift */,
+				9A15BB092C620AAE008E64E4 /* Condition.swift */,
 			);
 			path = "swift-start";
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				9A15BADD2C61FFE5008E64E4 /* ContentView.swift in Sources */,
 				9A15BADB2C61FFE5008E64E4 /* swift_startApp.swift in Sources */,
 				9A15BB082C620782008E64E4 /* Collections.swift in Sources */,
+				9A15BB0A2C620AAE008E64E4 /* Condition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
