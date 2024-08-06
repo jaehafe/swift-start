@@ -9,10 +9,10 @@ import SwiftUI
 
 struct Half: View {
     
-    var name: String = "jaeha2"
+    var name: String = "jaeha"
     var age: Int = 20
     
-    var list: [String] = ["!!!", "222", "333"]
+    var names: [String] = ["jaeha", "adam", "john"]
     
     var body: some View {
         VStack {
@@ -23,15 +23,20 @@ struct Half: View {
             
             Text("Hi \(age) \(name)")
             List {
-                ForEach(list, id: \.self) { item in
-                    let welcome = sayHi(to: name)
-                    Text(welcome)
+                ForEach(names, id: \.self) { name in
+                    let welcome = sayHi(name: name)
+                    if name == "jaeha" {
+                        Text("기다렸어요 \(welcome)")
+                    } else {
+                        Text(welcome)
+                    }
+                    
                 }
             }
         }
     }
     
-    func sayHi(to name: String) -> String {
+    func sayHi(name: String) -> String {
         return "\(name)님 안녕하세요"
     }
 }
