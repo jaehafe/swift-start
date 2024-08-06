@@ -19,6 +19,7 @@
 		9A15BB0A2C620AAE008E64E4 /* Condition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A15BB092C620AAE008E64E4 /* Condition.swift */; };
 		9A15BB0C2C620C47008E64E4 /* Loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A15BB0B2C620C47008E64E4 /* Loop.swift */; };
 		9A15BB0E2C620D79008E64E4 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A15BB0D2C620D79008E64E4 /* Function.swift */; };
+		9A15BB102C620F27008E64E4 /* Half.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A15BB0F2C620F27008E64E4 /* Half.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		9A15BB092C620AAE008E64E4 /* Condition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Condition.swift; sourceTree = "<group>"; };
 		9A15BB0B2C620C47008E64E4 /* Loop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loop.swift; sourceTree = "<group>"; };
 		9A15BB0D2C620D79008E64E4 /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
+		9A15BB0F2C620F27008E64E4 /* Half.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Half.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				9A15BB092C620AAE008E64E4 /* Condition.swift */,
 				9A15BB0B2C620C47008E64E4 /* Loop.swift */,
 				9A15BB0D2C620D79008E64E4 /* Function.swift */,
+				9A15BB0F2C620F27008E64E4 /* Half.swift */,
 			);
 			path = "swift-start";
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A15BB102C620F27008E64E4 /* Half.swift in Sources */,
 				9A15BB062C6204F6008E64E4 /* VariableType.swift in Sources */,
 				9A15BADD2C61FFE5008E64E4 /* ContentView.swift in Sources */,
 				9A15BB0E2C620D79008E64E4 /* Function.swift in Sources */,
