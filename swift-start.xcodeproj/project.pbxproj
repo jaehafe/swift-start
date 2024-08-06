@@ -14,6 +14,7 @@
 		9A15BAED2C61FFE7008E64E4 /* swift_startTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A15BAEC2C61FFE7008E64E4 /* swift_startTests.swift */; };
 		9A15BAF72C61FFE7008E64E4 /* swift_startUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A15BAF62C61FFE7008E64E4 /* swift_startUITests.swift */; };
 		9A15BAF92C61FFE7008E64E4 /* swift_startUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A15BAF82C61FFE7008E64E4 /* swift_startUITestsLaunchTests.swift */; };
+		9A15BB062C6204F6008E64E4 /* VariableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A15BB052C6204F6008E64E4 /* VariableType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		9A15BAF22C61FFE7008E64E4 /* swift-startUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-startUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A15BAF62C61FFE7008E64E4 /* swift_startUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_startUITests.swift; sourceTree = "<group>"; };
 		9A15BAF82C61FFE7008E64E4 /* swift_startUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_startUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9A15BB052C6204F6008E64E4 /* VariableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				9A15BADE2C61FFE7008E64E4 /* Assets.xcassets */,
 				9A15BAE02C61FFE7008E64E4 /* swift_start.entitlements */,
 				9A15BAE12C61FFE7008E64E4 /* Preview Content */,
+				9A15BB052C6204F6008E64E4 /* VariableType.swift */,
 			);
 			path = "swift-start";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A15BB062C6204F6008E64E4 /* VariableType.swift in Sources */,
 				9A15BADD2C61FFE5008E64E4 /* ContentView.swift in Sources */,
 				9A15BADB2C61FFE5008E64E4 /* swift_startApp.swift in Sources */,
 			);
