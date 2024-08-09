@@ -20,6 +20,7 @@
 		9A15BB0C2C620C47008E64E4 /* Loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A15BB0B2C620C47008E64E4 /* Loop.swift */; };
 		9A15BB0E2C620D79008E64E4 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A15BB0D2C620D79008E64E4 /* Function.swift */; };
 		9A15BB102C620F27008E64E4 /* Half.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A15BB0F2C620F27008E64E4 /* Half.swift */; };
+		D6C547B22C66281400EC51EB /* Diff.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C547B12C66281400EC51EB /* Diff.swift */; };
 		D6ED48522C62807300B0AF42 /* Elevator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ED48512C62807300B0AF42 /* Elevator.swift */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		9A15BB0B2C620C47008E64E4 /* Loop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loop.swift; sourceTree = "<group>"; };
 		9A15BB0D2C620D79008E64E4 /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
 		9A15BB0F2C620F27008E64E4 /* Half.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Half.swift; sourceTree = "<group>"; };
+		D6C547B12C66281400EC51EB /* Diff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diff.swift; sourceTree = "<group>"; };
 		D6ED48512C62807300B0AF42 /* Elevator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elevator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +123,7 @@
 				9A15BB0D2C620D79008E64E4 /* Function.swift */,
 				9A15BB0F2C620F27008E64E4 /* Half.swift */,
 				D6ED48512C62807300B0AF42 /* Elevator.swift */,
+				D6C547B12C66281400EC51EB /* Diff.swift */,
 			);
 			path = "swift-start";
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				9A15BB0E2C620D79008E64E4 /* Function.swift in Sources */,
 				9A15BADB2C61FFE5008E64E4 /* swift_startApp.swift in Sources */,
 				9A15BB0C2C620C47008E64E4 /* Loop.swift in Sources */,
+				D6C547B22C66281400EC51EB /* Diff.swift in Sources */,
 				9A15BB082C620782008E64E4 /* Collections.swift in Sources */,
 				9A15BB0A2C620AAE008E64E4 /* Condition.swift in Sources */,
 				D6ED48522C62807300B0AF42 /* Elevator.swift in Sources */,
