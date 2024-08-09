@@ -11,10 +11,13 @@ struct Diff: View {
     
     let myCar = Car(name: "car", owner: "Jaeha")
     @ObservedObject var myKar = Kar(name: "car2", owner: "123")
+    @State var name: String = ""
 
     
     var body: some View {
         Text("\(myKar.name)의 주인인 \(myKar.owner) 입니다")
+        
+        TextField(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/, text: $name)
         
         Button {
             
