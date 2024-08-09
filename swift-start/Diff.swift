@@ -10,13 +10,17 @@ import SwiftUI
 struct Diff: View {
     
     let myCar = Car(name: "car", owner: "Jaeha")
-    let myKar = Kar(name: "car2", owner: "123")
+    @ObservedObject var myKar = Kar(name: "car2", owner: "123")
 
     
     var body: some View {
         Text("\(myKar.name)의 주인인 \(myKar.owner) 입니다")
         
         Button {
+            
+            let broCar = myKar
+            broCar.name = "동생차"
+            broCar.owner = "동생"
             myKar.sayHi()
         } label: {
             Text("출발")
@@ -33,9 +37,9 @@ struct Car {
     }
 }
 
-class Kar {
-    let name: String
-    let owner: String
+class Kar: ObservableObject {
+    @Published var name: String
+    @Published var owner: String
     
     func sayHi() {
         print("hi \(owner)2")
